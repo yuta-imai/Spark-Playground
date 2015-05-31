@@ -1,4 +1,4 @@
-name := "HelloSpark+Kinesis"
+name := "HelloSpark-Kinesis"
 
 version := "1.0"
 
