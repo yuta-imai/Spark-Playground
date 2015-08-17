@@ -5,6 +5,7 @@ version := "1.0"
 scalaVersion := "2.11.6"
 
 libraryDependencies ++= Seq(
+  "org.postgresql" % "postgresql" % "9.4-1201-jdbc41",
   "org.apache.spark" % "spark-core_2.11" % "1.4.1",
   "org.apache.spark" % "spark-streaming_2.11" % "1.4.1",
   "org.apache.spark" % "spark-streaming-kinesis-asl_2.11" % "1.4.1",
