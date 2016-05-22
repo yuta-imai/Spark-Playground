@@ -27,3 +27,13 @@ project/boot/
 project/plugins/project/
 .scala_dependencies
 .worksheet
+.conf
+bin/*
+logs/*
+sbin/*
+conf/*
+.DS_Store
+src/main/resouces/application.conf
+src/main/scala/example/Class.scala
+src/main/scala/example/Iterate.scala
+src/main/scala/example/SimplePlayground.scala
