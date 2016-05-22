@@ -1,4 +1,4 @@
-package example
+package com.imaifactory.sparkplayground
 
 /**
   * Created by yimai on 11/16/15.

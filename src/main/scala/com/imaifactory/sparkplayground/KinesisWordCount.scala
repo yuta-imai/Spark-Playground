@@ -1,4 +1,4 @@
-package spark.example
+package com.imaifactory.sparkplayground
 
 import org.apache.spark._
 import org.apache.spark.streaming._

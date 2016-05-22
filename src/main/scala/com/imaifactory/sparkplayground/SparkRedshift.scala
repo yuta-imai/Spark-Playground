@@ -1,4 +1,4 @@
-package example
+package com.imaifactory.sparkplayground
 
 import org.apache.spark.{SparkContext, SparkConf}
 import org.apache.spark.sql._

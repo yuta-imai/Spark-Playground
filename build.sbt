@@ -14,7 +14,9 @@ libraryDependencies ++= Seq(
   "org.apache.spark" % "spark-yarn_2.10" % "1.6.1",
   "com.amazonaws" % "amazon-kinesis-client" % "1.6.3",
   "com.amazonaws" % "aws-java-sdk" % "1.10.6",
-  "com.typesafe" % "config" % "1.3.0"
+  "com.typesafe" % "config" % "1.3.0",
+  "com.datastax.spark" % "spark-cassandra-connector_2.10" % "1.6.0-M2",
+  "org.apache.phoenix" % "phoenix-spark" % "4.7.0-HBase-1.1"
 )
 
 dependencyOverrides ++= Set(

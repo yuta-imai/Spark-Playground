@@ -1,13 +1,13 @@
-package example
+package com.imaifactory.sparkplayground
 
 /**
   * Created by yimai on 2016/05/21.
   */
 
+import com.typesafe.config.ConfigFactory
 import org.apache.spark._
 import org.apache.spark.streaming._
 import org.apache.spark.streaming.twitter._
-import com.typesafe.config.{Config, ConfigFactory}
 
 
 case class Tweet(createdAt:Long, text:String)
